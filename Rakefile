@@ -10,9 +10,9 @@ namespace :greeting do
   end
 end
 
-desc 'MMMMMM consoles'
+desc 'drop into the pry console'
 task :console do
-  puts "MMMM consoles"
+  Pry.start
 end
 
 namespace :db do
